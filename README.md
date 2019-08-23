@@ -49,7 +49,7 @@ Closure is code that is identified elsewhere that we can use for later. Closure 
 
 5. Why do we need super() in an extended class?
 
-super() is used to call the methods of the parent class, allowing the child to inherit the parents attributes
+super() is used to replace .call()
 
 ## Project Set up
 

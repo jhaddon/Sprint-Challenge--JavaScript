@@ -32,7 +32,7 @@ function greeting (firstName, lastName) {
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
 console.log(consume(10, 16, multiply)); // 160
-console.log(consume("Joseph", "Haddon", greeting)); // Hello Mary Poppins, nice to meet you!
+console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
@@ -41,7 +41,7 @@ console.log(consume("Joseph", "Haddon", greeting)); // Hello Mary Poppins, nice 
 
 // Explanation: 
 
-// I believe it has something to do with the lexical enviornment and two pass compiler. Closures manipulate variables outside of their scope.
+// I believe it has something to do with the lexical environment and two pass compiler. Closures manipulate variables outside of their scope.
 
 const external = "I'm outside the function";
 
