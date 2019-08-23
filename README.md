@@ -49,7 +49,7 @@ Closure is code that is identified elsewhere that we can use for later. Closure 
 
 5. Why do we need super() in an extended class?
 
-super() is used to replace .call()
+super() is used to replace .call(), it is used to access and call functions from the parent
 
 ## Project Set up
 
